@@ -90,7 +90,7 @@ CheckForUpdate
 # =========================
 $versions = @(
     @{
-        Name="Pre-Alpha (2018)"
+        Name="Gooner-Alpha (2018)"
         Url="1r4yuPqKtFlPQAwXCFj7lcRgL9ztzRniE"
         Type="drive"
         Folder="Pre-Alpha (2018)"
