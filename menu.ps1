@@ -90,7 +90,7 @@ CheckForUpdate
 # =========================
 $versions = @(
     @{
-        Name="Gooner-Alpha (2018)"
+        Name="Pre-Alpha (2018)"
         Url="1r4yuPqKtFlPQAwXCFj7lcRgL9ztzRniE"
         Type="drive"
         Folder="Pre-Alpha (2018)"
@@ -192,7 +192,7 @@ $index = 0
 function DrawMenu {
 
     [Console]::SetCursorPosition(0,0)
-    Write-Host "https://discord.gg/64tSXUurQC                                           Project BU v1.03 UPDATER TEST"
+    Write-Host "https://discord.gg/64tSXUurQC                                           Project BU v1.04"
     Write-Host "  _____  _____   ____       _ ______ _____ _______      
  |  __ \|  __ \ / __ \     | |  ____/ ____|__   __|     
  | |__) | |__) | |  | |    | | |__ | |       | |        
