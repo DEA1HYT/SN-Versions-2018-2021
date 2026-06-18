@@ -1,4 +1,4 @@
-﻿function CheckForUpdate {
+function CheckForUpdate {
 
     $versionUrl = "https://files.catbox.moe/9dml3t.txt"
     $scriptUrl  = "https://files.catbox.moe/25mqge.ps1"
@@ -80,7 +80,7 @@ $global:inDownload = $false
 $global:gameRunning = $false
 $global:deleteMode = $false
 
-$global:Version = "1.0.2"
+$global:Version = "1.0.3"
 
 Write-Host "Checking for updates..." -ForegroundColor Green
 CheckForUpdate
@@ -192,7 +192,7 @@ $index = 0
 function DrawMenu {
 
     [Console]::SetCursorPosition(0,0)
-    Write-Host "https://discord.gg/64tSXUurQC                                           Project BU v1.02"
+    Write-Host "https://discord.gg/64tSXUurQC                                           Project BU v1.03 UPDATER TEST"
     Write-Host "  _____  _____   ____       _ ______ _____ _______      
  |  __ \|  __ \ / __ \     | |  ____/ ____|__   __|     
  | |__) | |__) | |  | |    | | |__ | |       | |        
